@@ -13,7 +13,7 @@ This application was written to provide the most basic, common use of Tee in Win
 ### Usage
 *Tee filename.txt*
 
-Example: **myapplication.exe 2>>&1 | Tee stdout_content.txt**
+Example: **myapplication.exe 2>>&1 | Tee file.txt**
 
 The above example merges the standard error (2) to standard output, then the pipe routes that output to Tee, which:
 - Creates a temp file
