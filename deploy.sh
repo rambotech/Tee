@@ -5,8 +5,8 @@ pwd
 
 ls -la
 
-echo dotnet build -c $BUILD_CONFIG Tee
+echo dotnet build -c $BUILD_CONFIG Tee.sln
 
-dotnet build -c $BUILD_CONFIG Tee
+dotnet build -c $BUILD_CONFIG Tee.sln
 
 ## END ##
