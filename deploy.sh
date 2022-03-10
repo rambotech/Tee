@@ -1,14 +1,17 @@
-language: csharp
-solution: ./Tee.sln
-os:
-- linux
-mono: none
-dotnet: 6.0
-script:
-- chmod +x ./deploy.sh 
-- ./deploy.sh
+#!/bin/bash
+set -ev
 
-# safelist
-branches:
-  only:
-  - main
+cd src
+pwd
+ls -la
+
+echo NUGET_API_KEY ... contents hidden
+echo NUGET_SOURCE == ${NUGET_SOURCE} 
+echo TRAVIS_PULL_REQUEST == ${TRAVIS_PULL_REQUEST}
+echo BUILD_CONFIG == ${BUILD_CONFIG}
+
+echo BUILD_DIR == ${BUILD_DIR}
+
+dotnet build -c $BUILD_CONFIG Tee
+
+## END ##
