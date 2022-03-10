@@ -1,8 +1,8 @@
 #!/bin/bash
 set -ev
 
-cd src
 pwd
+
 ls -la
 
 echo NUGET_API_KEY ... contents hidden
