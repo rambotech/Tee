@@ -1,3 +1,8 @@
+| *branch* | |
+| :--- | :---: |
+| master    | [![Build status](https://app.travis-ci.com/rambotech/Tee.svg?branch=master)](https://app.travis-ci.com/rambotech/Tee) |
+| develop   | [![Build status](https://app.travis-ci.com/rambotech/Tee.svg?branch=develop)](https://app.travis-ci.com/rambotech/Tee) |
+
 # Tee
 
 A bare-bones implementation of Linux tee in NET 6. Tee provides a way to duplicate standard output to both the console and a file.
