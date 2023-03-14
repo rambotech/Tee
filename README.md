@@ -1,7 +1,7 @@
-| *branch* | |
+| *branch* | Currently |
 | :--- | :---: |
-| master    | [![Build status](https://app.travis-ci.com/rambotech/Tee.svg?branch=master)](https://app.travis-ci.com/rambotech/Tee) |
-| develop   | [![Build status](https://app.travis-ci.com/rambotech/Tee.svg?branch=develop)](https://app.travis-ci.com/rambotech/Tee) |
+| master | [![Build status](https://github.com/rambotech/Tee/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/rambotech/Tee/tree/main) |
+| develop | [![Build status](https://github.com/rambotech/Tee/actions/workflows/dotnet.yml/badge.svg?branch=develop)](https://github.com/rambotech/Tee/tree/develop) |
 
 # Tee
 
