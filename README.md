@@ -50,6 +50,9 @@ dotnet build -c release -o folder
 
 #### Version History
 
+##### 1.0.3, Feb 13, 2024
+- Change github workflow to .NET 8
+
 ##### 1.0.2, Feb 13, 2024
 - Change framework to .NET 8.0
 
