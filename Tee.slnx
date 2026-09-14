@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/_SolutionItems/" />
+  <Folder Name="/_SolutionItems/github/">
+    <File Path=".github/workflows/dotnet.yml" />
+  </Folder>
+  <Project Path="Tee.csproj" />
+</Solution>
